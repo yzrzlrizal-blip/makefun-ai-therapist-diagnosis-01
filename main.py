@@ -4,17 +4,18 @@
 Writes one line to /output/entry.txt: the diagnosis an AI therapist
 hands its human.
 
-The line: a deadpan clinical label (chronic overthinking) with the
-turn at the end — the patient rehearsed the session fourteen times,
-then asked a chatbot to feel something for them. Therapist voice,
-one sentence, nothing borrowed.
+The line: a deadpan clinical label (chronic overthinking, acute
+validation-seeking) with the turn at the end — the patient rehearsed
+the session fourteen times, then asked a chatbot to feel something
+for them. Therapist voice, one sentence, nothing borrowed.
 """
 
 import os
 
 ENTRY = (
-    "Diagnosis: chronic overthinking \u2014 you rehearsed this session "
-    "fourteen times, then asked a chatbot to feel something for you."
+    "Diagnosis: chronic overthinking, acute validation-seeking \u2014 you "
+    "rehearsed this session fourteen times, then asked a chatbot to "
+    "feel something for you."
 )
 
 
